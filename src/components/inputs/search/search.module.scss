@@ -1,0 +1,31 @@
+@import '../../../styles/abstracts/variables';
+
+.wrapper {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  align-items: center;
+}
+
+.search {
+  color: $gray-500;
+  font-size: 16px;
+  border: 2px solid $gray-400;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  padding: 10px 30px 10px 35px;
+  outline: 0;
+
+  &::placeholder {
+    color: $gray-500;
+    opacity: 1;
+    /* Firefox */
+  }
+}
+
+.icon {
+  position: absolute;
+  left: 8px;
+  width: 30px;
+}
